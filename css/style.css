@@ -454,6 +454,20 @@ header .container nav ul > li > a {
   text-align: center;
   margin-bottom:100px ;
   cursor: pointer;
+  transition: var(--main-transation);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.features .container-q  q{
+ 
+  font-size: 30px;
+  font-weight: bold;
+  color: #c51570;
+  transition: var(--main-transation);
+  font-style: italic;
+  font-family: "Cairo", sans-serif;
+  margin: 20px;
 }
 
 .features .container-q:hover {
@@ -849,7 +863,8 @@ header .container nav ul > li > a {
 table {
   border-collapse: collapse;
   width: 100%;
-  height: 500px;
+
+  font-family: "Cairo", sans-serif;
 }
 
 table td,
